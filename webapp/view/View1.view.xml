@@ -1,0 +1,14 @@
+<mvc:View controllerName="jsonmodel.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+<VBox >
+    <Text text="{EmployeeModel>/employees/0/empName}" textAlign="Center" />
+    <Text text="{EmployeeModel>/employees/1/empId}" textAlign="Center" />
+     <Text text="{EmployeeModel>/employees/2/designation}" textAlign="Center" />
+    <Text text="{/students/0/name}" textAlign="Center"/>
+     <Text text="{/students/1/name}" textAlign="Center"/>
+     <Text text="{EmployeeModel>/employees/0/empName}" />
+    </VBox>
+    </Page>
+</mvc:View>
